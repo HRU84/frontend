@@ -2,7 +2,7 @@ name: CI/CD Frontend - Test, Version, ECR, Deploy EKS
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch: {}
 
 env:
